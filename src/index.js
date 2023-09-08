@@ -2,8 +2,8 @@
  * @Author: 天勇 343975805@qq.com
  * @Date: 2023-09-08 15:20:54
  * @LastEditors: 天勇 343975805@qq.com
- * @LastEditTime: 2023-09-08 15:21:23
- * @FilePath: /REACT/resource/react_project_demo/src/index.js
+ * @LastEditTime: 2023-09-08 16:26:57
+ * @FilePath: /react_project_demo/src/index.js
  * @Description: 
  */
 // src/index.js 是js的入口文件
@@ -20,3 +20,4 @@ const App = <div>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // 将App渲染进根容器
 root.render(App);
+ 
