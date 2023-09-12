@@ -2,7 +2,7 @@
  * @Author: 天勇 343975805@qq.com
  * @Date: 2023-09-08 15:20:54
  * @LastEditors: 天勇 343975805@qq.com
- * @LastEditTime: 2023-09-11 17:53:03
+ * @LastEditTime: 2023-09-12 13:55:35
  * @FilePath: /react_project_demo/src/index.js
  * @Description: 
  */
@@ -22,15 +22,16 @@ const App = <div className='logs'>
         <div className='day'>
             19日
         </div>
-    </div>
-    {/* 日志内容的容器 */}
-    <div className='content'>
-        <h2 className='desc'>学习react</h2>
-        <div className='time'>
-            40分钟
-        </div>
+        {/* 日志内容的容器 */}
+        <div className='content'>
+            <h2 className='desc'>学习react</h2>
+            <div className='time'>
+                40分钟
+            </div>
 
+        </div>
     </div>
+
 </div>;
 
 // 获取一个根容器
