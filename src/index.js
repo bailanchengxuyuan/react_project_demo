@@ -2,22 +2,38 @@
  * @Author: 天勇 343975805@qq.com
  * @Date: 2023-09-08 15:20:54
  * @LastEditors: 天勇 343975805@qq.com
- * @LastEditTime: 2023-09-08 16:26:57
+ * @LastEditTime: 2023-09-11 17:53:03
  * @FilePath: /react_project_demo/src/index.js
  * @Description: 
  */
 // src/index.js 是js的入口文件
-// 引入ReactDOM
+// 引入ReactDOMd
 import ReactDOM from 'react-dom/client';
-
+/* 引入样式表 */
+import './index.css'
 // 创建一个JSX
-const App = <div>
-    <h1>这是一个React项目</h1>
-    <p>我终于有了第一个React项目了!!!</p>
+const App = <div className='logs'>
+    {/* 日志项 */}
+    <div className='item'>
+        {/* 日期容器 */}
+        <div className='month'>
+            四月
+        </div>
+        <div className='day'>
+            19日
+        </div>
+    </div>
+    {/* 日志内容的容器 */}
+    <div className='content'>
+        <h2 className='desc'>学习react</h2>
+        <div className='time'>
+            40分钟
+        </div>
+
+    </div>
 </div>;
 
 // 获取一个根容器
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // 将App渲染进根容器
 root.render(App);
- 
